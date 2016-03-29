@@ -31,7 +31,6 @@ describe('verb-defaults', function() {
     it('should add defaults', function() {
       app.use(defaults);
       assert(app.engines.hasOwnProperty('.*'));
-      assert(app._.helpers.sync.hasOwnProperty('date'));
     });
   });
 
@@ -41,7 +40,6 @@ describe('verb-defaults', function() {
 
       app.generator('foo', function(foo) {
         assert(foo.engines.hasOwnProperty('.*'));
-        assert(foo._.helpers.sync.hasOwnProperty('date'));
         cb();
       });
     });
@@ -50,7 +48,6 @@ describe('verb-defaults', function() {
       app.generator('foo', function(foo) {
         foo.use(defaults);
         assert(foo.engines.hasOwnProperty('.*'));
-        assert(foo._.helpers.sync.hasOwnProperty('date'));
 
         foo.generator('bar', function(bar) {
           assert(bar.engines.hasOwnProperty('.*'));
@@ -64,7 +61,6 @@ describe('verb-defaults', function() {
         foo.generator('bar', function(bar) {
           bar.use(defaults);
           assert(bar.engines.hasOwnProperty('.*'));
-          assert(bar._.helpers.sync.hasOwnProperty('date'));
           cb();
         });
       });
@@ -85,7 +81,6 @@ describe('verb-defaults', function() {
             assert(baz.engines.hasOwnProperty('.*'));
             assert(!baz.engines.hasOwnProperty('.aaa'));
             assert(baz.engines.hasOwnProperty('.bbb'));
-            assert(baz._.helpers.sync.hasOwnProperty('date'));
             cb();
           });
         });
