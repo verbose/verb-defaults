@@ -1,6 +1,6 @@
 # verb-defaults [![NPM version](https://img.shields.io/npm/v/verb-defaults.svg?style=flat)](https://www.npmjs.com/package/verb-defaults) [![NPM downloads](https://img.shields.io/npm/dm/verb-defaults.svg?style=flat)](https://npmjs.org/package/verb-defaults) [![Build Status](https://img.shields.io/travis/jonschlinkert/verb-defaults.svg?style=flat)](https://travis-ci.org/jonschlinkert/verb-defaults)
 
-> Plugin for setting basic defaults in verb generators.
+> Plugin for setting basic defaults in verb projects.
 
 You might also be interested in [generate](https://github.com/generate/generate).
 

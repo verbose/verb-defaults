@@ -1,6 +1,6 @@
 {
   "name": "verb-defaults",
-  "description": "Plugin for setting basic defaults in verb generators.",
+  "description": "Plugin for setting basic defaults in verb projects.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/verb-defaults",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
