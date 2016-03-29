@@ -1,0 +1,68 @@
+{
+  "name": "verb-defaults",
+  "description": "Plugin for setting basic defaults in verb generators.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/verb-defaults",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/verb-defaults",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/verb-defaults/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "verbfile.js",
+    "toc.js",
+    "templates"
+  ],
+  "main": "verbfile.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "common-middleware": "^0.2.6",
+    "engine-base": "^0.1.2",
+    "helper-date": "^0.2.2"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "generate",
+    "generator",
+    "template",
+    "templates",
+    "verb",
+    "verb-generator",
+    "verbgenerator"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "highlight": "generate",
+      "list": [
+        "assemble",
+        "generate",
+        "verb"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
