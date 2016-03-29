@@ -10,12 +10,9 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "verbfile.js",
-    "toc.js",
-    "templates"
+    "index.js"
   ],
-  "main": "verbfile.js",
+  "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -24,21 +21,22 @@
   },
   "dependencies": {
     "common-middleware": "^0.2.6",
-    "engine-base": "^0.1.2",
-    "helper-date": "^0.2.2"
+    "engine-base": "^0.1.2"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.7",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "verb": "github:verbose/verb#dev"
   },
   "keywords": [
+    "defaults",
     "generate",
     "generator",
+    "plugin",
     "template",
     "templates",
     "verb",
-    "verb-generator",
-    "verbgenerator"
+    "verbplugin"
   ],
   "verb": {
     "run": true,
