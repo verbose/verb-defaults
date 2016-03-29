@@ -2,11 +2,11 @@
   "name": "verb-defaults",
   "description": "Plugin for setting basic defaults in verb projects.",
   "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/verb-defaults",
+  "homepage": "https://github.com/verbose/verb-defaults",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/verb-defaults",
+  "repository": "verbose/verb-defaults",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/verb-defaults/issues"
+    "url": "https://github.com/verbose/verb-defaults/issues"
   },
   "license": "MIT",
   "files": [
@@ -53,7 +53,9 @@
       "list": [
         "assemble",
         "generate",
-        "verb"
+        "verb",
+        "verb-collections",
+        "verb-repo-data"
       ]
     },
     "reflinks": [
