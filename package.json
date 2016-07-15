@@ -1,7 +1,7 @@
 {
   "name": "verb-defaults",
   "description": "Plugin for setting basic defaults in verb projects.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/verbose/verb-defaults",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "verbose/verb-defaults",
@@ -60,7 +60,9 @@
       ]
     },
     "reflinks": [
-      "verb"
+      "verb",
+      "engine-base",
+      "verb-generate-readme"
     ],
     "lint": {
       "reflinks": true
