@@ -20,12 +20,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "common-middleware": "^0.2.6",
-    "engine-base": "^0.1.2"
+    "common-middleware": "^0.3.0",
+    "engine-base": "^0.1.2",
+    "is-valid-app": "^0.2.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "^2.4.5",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
     "verb": "github:verbose/verb#dev"
   },
   "keywords": [
