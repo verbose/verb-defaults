@@ -10,7 +10,9 @@
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "LICENSE",
+    "README.md"
   ],
   "main": "index.js",
   "engines": {
@@ -31,6 +33,8 @@
   },
   "keywords": [
     "defaults",
+    "docs",
+    "documentation",
     "generate",
     "generator",
     "plugin",
@@ -60,8 +64,8 @@
       ]
     },
     "reflinks": [
-      "verb",
       "engine-base",
+      "verb",
       "verb-generate-readme"
     ],
     "lint": {
