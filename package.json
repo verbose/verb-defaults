@@ -22,12 +22,12 @@
     "test": "mocha"
   },
   "dependencies": {
-    "common-middleware": "^0.3.0",
+    "common-middleware": "^0.4.1",
     "engine-base": "^0.1.2",
     "is-valid-app": "^0.2.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.9",
+    "gulp-format-md": "^0.1.10",
     "mocha": "^2.5.3",
     "verb": "github:verbose/verb#dev"
   },
